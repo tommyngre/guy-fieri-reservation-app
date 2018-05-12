@@ -41,6 +41,13 @@ app.post("/api/tables", function (req, res) {
   res.json(newTable);
 });
 
+app.post('/api/clear', function(req, res){
+  // Empty out the arrays of data
+  tables = [];
+  waitListData = [];
+
+  console.log(tables);
+})
 
 app.listen(PORT, function () {
   console.log("listening on port " + PORT);
