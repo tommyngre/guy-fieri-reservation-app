@@ -13,7 +13,7 @@ let tables = [
     name: "bimp",
     phoneNumber: "919-900-9000",
     email: "bimp@bimp.com",
-    num: "101"
+    customerID: "101"
   }
 ];
 
